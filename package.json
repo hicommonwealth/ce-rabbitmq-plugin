@@ -1,0 +1,22 @@
+{
+  "name": "ce-rabbitmq-plugin",
+  "version": "1.0.0",
+  "description": "A chain-events plugin that adds RabbitMq functionality",
+  "main": "index.js",
+  "repository": "https://github.com/timolegros/ce-rabbitmq-plugin.git",
+  "author": "timolegros <timothee@ualberta.ca>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "chain-event-types": "git+https://github.com/timolegros/chain-events.git#build.types",
+    "rascal": "^13.1.0"
+  },
+  "devDependencies": {
+    "@polkadot/types": "4.16.2",
+    "@polkadot/api": "4.16.2",
+    "@types/rascal": "^10.0.4"
+  }
+}
