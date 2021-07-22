@@ -1,9 +1,13 @@
-import { RabbitMqProducer } from "./Producer";
+import { RabbitMqProducer } from "./producer";
 import {CWEvent, IEventHandler} from "chain-event-types"
+import config  from '../RabbitMQconfig.json';
 
 export class RabbitMqHandler extends RabbitMqProducer implements IEventHandler {
     constructor(_rabbitMQConfig: {}) {
-        super(_rabbitMQConfig);
+        // defaults to the RabbitMQconfig
+        let tempConfig = _rabbitMQConfig
+        if (!tempConfig) tempConfig = config
+        super(tempConfig);
     }
 
     public async handle(event: CWEvent): Promise<any> {
