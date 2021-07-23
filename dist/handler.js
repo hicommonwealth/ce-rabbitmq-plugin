@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RabbitMqHandler = void 0;
 const producer_1 = require("./producer");
-const RabbitMQconfig_json_1 = __importDefault(require("../RabbitMQconfig.json"));
+const RabbitMQconfig_json_1 = __importDefault(require("./RabbitMQconfig.json"));
 class RabbitMqHandler extends producer_1.RabbitMqProducer {
     constructor(_rabbitMQConfig) {
         // defaults to the RabbitMQconfig

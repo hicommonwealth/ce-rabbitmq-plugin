@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getRabbitMQConfig = void 0;
 // TODO: generalize this for any config file at any path
 // returns either the RabbitMQ config specified by the filepath or the default config
-const RabbitMQconfig_json_1 = __importDefault(require("../RabbitMQconfig.json"));
+const RabbitMQconfig_json_1 = __importDefault(require("./RabbitMQconfig.json"));
 const fs_1 = __importDefault(require("fs"));
 function getRabbitMQConfig(filepath) {
     if (typeof filepath == 'string' && filepath.length == 0)

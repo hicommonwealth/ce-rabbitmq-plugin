@@ -1,6 +1,6 @@
 // TODO: generalize this for any config file at any path
 // returns either the RabbitMQ config specified by the filepath or the default config
-import config from "../RabbitMQconfig.json";
+import config from "./RabbitMQconfig.json";
 import fs from "fs";
 
 export function getRabbitMQConfig(filepath?: string) {
