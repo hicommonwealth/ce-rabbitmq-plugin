@@ -11,7 +11,6 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "downlevelIteration": true,
-    "sourceMap": true,
     "typeRoots": [
       "./node_modules/@types"
     ]

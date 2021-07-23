@@ -834,11 +834,15 @@ caseless@~0.12.0:
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
 
-"chain-event-types@git+https://github.com/timolegros/chain-events.git#build.types":
+"chain-events@git+https://github.com/timolegros/chain-events.git#build":
   version "0.6.5"
-  resolved "git+https://github.com/timolegros/chain-events.git#8be5a2e20360a18919ecf6fda706ed3428cd0c2f"
+  resolved "git+https://github.com/timolegros/chain-events.git#063f6ca9f421e1ed86248a6ab9eeaf913650953d"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
+    "@polkadot/api" "4.16.2"
+    "@polkadot/api-derive" "4.16.2"
+    "@polkadot/types" "4.16.2"
+    "@polkadot/util" "^6.10.1"
     amqplib "^0.8.0"
     bn.js "^5.1.3"
     ethereum-block-by-date "^1.2.2"
@@ -848,7 +852,6 @@ caseless@~0.12.0:
     node-fetch "^2.6.1"
     pg "^8.6.0"
     pg-format "^1.0.4"
-    rascal "^13.1.0"
     sleep-promise "^8.0.1"
     typescript-logging "^0.6.4"
     underscore "^1.10.2"

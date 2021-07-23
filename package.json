@@ -11,12 +11,10 @@
     "build": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "chain-event-types": "git+https://github.com/timolegros/chain-events.git#build.types",
+    "chain-events": "git+https://github.com/timolegros/chain-events.git#build",
     "rascal": "^13.1.0"
   },
   "devDependencies": {
-    "@polkadot/types": "4.16.2",
-    "@polkadot/api": "4.16.2",
     "@types/rascal": "^10.0.4"
   }
 }
