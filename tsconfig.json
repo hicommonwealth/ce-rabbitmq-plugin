@@ -6,7 +6,6 @@
     "module": "commonjs",
     "allowSyntheticDefaultImports": true,
     "outDir": "./dist",
-    "baseUrl": "./src",
     "declaration": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
@@ -17,6 +16,7 @@
   },
   "include": [
     "./src",
+    "./index.ts"
   ],
   "exclude": [
     "./dist",
