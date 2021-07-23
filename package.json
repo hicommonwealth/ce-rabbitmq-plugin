@@ -15,7 +15,7 @@
     "build": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "chain-events": "git+https://github.com/timolegros/chain-events.git#build",
+    "@commonwealth/chain-events": "git+https://github.com/timolegros/chain-events.git#build",
     "rascal": "^13.1.0"
   },
   "devDependencies": {

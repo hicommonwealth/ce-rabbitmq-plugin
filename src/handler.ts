@@ -1,5 +1,5 @@
 import { RabbitMqProducer } from "./producer";
-import { CWEvent, IEventHandler } from "chain-events"
+import { CWEvent, IEventHandler } from "@commonwealth/chain-events";
 import config  from './RabbitMQconfig.json';
 
 export class RabbitMqHandler extends RabbitMqProducer implements IEventHandler {
