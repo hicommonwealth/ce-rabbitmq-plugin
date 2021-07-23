@@ -4,6 +4,9 @@
   "description": "A chain-events plugin that adds RabbitMq functionality",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
   "repository": "https://github.com/timolegros/ce-rabbitmq-plugin.git",
   "author": "timolegros <timothee@ualberta.ca>",
   "license": "MIT",
