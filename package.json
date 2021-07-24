@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@commonwealth/chain-events": "git+https://github.com/timolegros/chain-events.git#build",
+    "amqplib": "^0.8.0",
     "rascal": "^13.1.0"
   },
   "devDependencies": {
