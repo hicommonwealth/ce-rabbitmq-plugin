@@ -1,6 +1,7 @@
 {
     "vhosts": {
         "/": {
+            "assert": true,
             "connection": {
                 "protocol": "amqp",
                 "hostname": "localhost",
