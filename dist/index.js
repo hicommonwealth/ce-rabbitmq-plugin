@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.RabbitMqIdentityConfig = exports.RabbitMqDefaultConfig = exports.RabbitMqHandler = exports.RabbitMqProducer = void 0;
+exports.RabbitMqDefaultConfig = exports.RabbitMqHandler = exports.RabbitMqProducer = void 0;
 var producer_1 = require("./producer");
 Object.defineProperty(exports, "RabbitMqProducer", { enumerable: true, get: function () { return producer_1.RabbitMqProducer; } });
 var handler_1 = require("./handler");
@@ -21,5 +21,3 @@ Object.defineProperty(exports, "RabbitMqHandler", { enumerable: true, get: funct
 __exportStar(require("./util"), exports);
 const RabbitMQconfig_json_1 = __importDefault(require("./RabbitMQconfig.json"));
 exports.RabbitMqDefaultConfig = RabbitMQconfig_json_1.default;
-const WithIdentityQueueConfig_json_1 = __importDefault(require("./WithIdentityQueueConfig.json"));
-exports.RabbitMqIdentityConfig = WithIdentityQueueConfig_json_1.default;

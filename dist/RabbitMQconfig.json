@@ -16,8 +16,7 @@
             },
             "queues": {
                 "eventsQueue": {
-                    "assert": true,
-                    "purge": true
+                    "assert": true
                 }
             },
             "bindings": {
