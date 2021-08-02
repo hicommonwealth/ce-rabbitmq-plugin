@@ -15,10 +15,8 @@ export class RabbitMqProducer {
     }
 
     public async init(): Promise<void> {
-        // this assumes the vhost is '/' --> change soon
-        const cnct = this._vhost.connection;
         console.info(
-            `Rascal connecting to RabbitMQ: ${cnct.protocol}://${cnct.user}:*****@${cnct.hostname}:${cnct.port}/`
+            `Rascal connecting to RabbitMQ: ${this._vhost.connection}`
         );
         this.broker = await Rascal.BrokerAsPromised.create(
             Rascal.withDefaultConfig(this._rabbitMQConfig)
