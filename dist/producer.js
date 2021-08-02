@@ -25,9 +25,7 @@ class RabbitMqProducer {
     }
     init() {
         return __awaiter(this, void 0, void 0, function* () {
-            // this assumes the vhost is '/' --> change soon
-            const cnct = this._vhost.connection;
-            console.info(`Rascal connecting to RabbitMQ: ${cnct.protocol}://${cnct.user}:*****@${cnct.hostname}:${cnct.port}/`);
+            console.info(`Rascal connecting to RabbitMQ: ${this._vhost.connection}`);
             this.broker = yield rascal_1.default.BrokerAsPromised.create(rascal_1.default.withDefaultConfig(this._rabbitMQConfig));
             this.broker.on('error', console.error);
             this.broker.on('vhost_initialized', ({ vhost, connectionUrl }) => {
