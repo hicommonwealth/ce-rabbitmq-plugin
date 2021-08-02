@@ -17,33 +17,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@commonwealth/chain-events@git+https://github.com/timolegros/chain-events.git#build":
-  version "0.6.5"
-  resolved "git+https://github.com/timolegros/chain-events.git#db863a8a633ee0c3260ad7a2d39ec9dcde2e86f0"
-  dependencies:
-    "@edgeware/node-types" "^3.3.3"
-    "@polkadot/api" "4.16.2"
-    "@polkadot/api-derive" "4.16.2"
-    "@polkadot/types" "4.16.2"
-    "@polkadot/util" "6.11.1"
-    bn.js "^5.1.3"
-    ethereum-block-by-date "^1.2.2"
-    ethers "^4.0.39"
-    express "^4.17.1"
-    lodash "^4.17.21"
-    node-fetch "^2.6.1"
-    pg "^8.6.0"
-    pg-format "^1.0.4"
-    sleep-promise "^8.0.1"
-    typescript-logging "^0.6.4"
-    underscore "^1.10.2"
-    web3 "^1.3.1"
-    web3-core "^1.3.1"
-    web3-utils "^1.3.1"
-
 "@commonwealth/chain-events@git+https://github.com/timolegros/chain-events.git#tim.OOP":
   version "0.6.5"
-  resolved "git+https://github.com/timolegros/chain-events.git#5a677719518c1605fcaebcc8dbb486b297b0108e"
+  resolved "git+https://github.com/timolegros/chain-events.git#a9c9e18baa19d5bbfbfb133db4d534ea81fd71a5"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@polkadot/api" "4.16.2"
@@ -51,7 +27,6 @@
     "@polkadot/types" "4.16.2"
     "@polkadot/util" "6.11.1"
     bn.js "^5.1.3"
-    ce-rabbitmq-plugin "git+https://github.com/timolegros/ce-rabbitmq-plugin.git#main"
     ethereum-block-by-date "^1.2.2"
     ethers "^4.0.39"
     express "^4.17.1"
@@ -882,14 +857,6 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
-
-"ce-rabbitmq-plugin@git+https://github.com/timolegros/ce-rabbitmq-plugin.git#main":
-  version "1.0.0"
-  resolved "git+https://github.com/timolegros/ce-rabbitmq-plugin.git#271387315a5e7408920fd31ea4ef9b8ecc18bdeb"
-  dependencies:
-    "@commonwealth/chain-events" "git+https://github.com/timolegros/chain-events.git#build"
-    amqplib "^0.8.0"
-    rascal "^13.1.0"
 
 chownr@^1.1.1:
   version "1.1.4"
