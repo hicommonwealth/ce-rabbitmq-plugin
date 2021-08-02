@@ -17,9 +17,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@commonwealth/chain-events@git+https://github.com/timolegros/chain-events.git#tim.OOP":
+"@commonwealth/chain-events@git+https://git@github.com/timolegros/chain-events.git#tim.OOP":
   version "0.6.5"
-  resolved "git+https://github.com/timolegros/chain-events.git#a9c9e18baa19d5bbfbfb133db4d534ea81fd71a5"
+  resolved "git+https://git@github.com/timolegros/chain-events.git#a9c9e18baa19d5bbfbfb133db4d534ea81fd71a5"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@polkadot/api" "4.16.2"
