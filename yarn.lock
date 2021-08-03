@@ -19,7 +19,7 @@
 
 "@commonwealth/chain-events@git+https://git@github.com/timolegros/chain-events.git#tim.OOP":
   version "0.6.5"
-  resolved "git+https://git@github.com/timolegros/chain-events.git#713d772ce9c257371989750578886e48c386e732"
+  resolved "git+https://git@github.com/timolegros/chain-events.git#27ecb5b0138675c9c1f92a3aa86f16077f1c71c5"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@polkadot/api" "4.16.2"
