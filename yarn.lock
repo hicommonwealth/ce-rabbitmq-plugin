@@ -18,8 +18,8 @@
     regenerator-runtime "^0.13.4"
 
 "@commonwealth/chain-events@git+https://git@github.com/timolegros/chain-events.git#tim.OOP":
-  version "0.7.4"
-  resolved "git+https://git@github.com/timolegros/chain-events.git#3a6ee79b21f66944bd1fb902bce397f29baad093"
+  version "0.7.5"
+  resolved "git+https://git@github.com/timolegros/chain-events.git#f3a580b6106c16555259b28fdb31c74403d8ef8c"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@ethersproject/abi" "^5.0.0"
