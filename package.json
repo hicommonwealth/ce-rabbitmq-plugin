@@ -15,7 +15,7 @@
     "build": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "@commonwealth/chain-events": "git+https://git@github.com/timolegros/chain-events.git#tim.render",
+    "@commonwealth/chain-events": "git+https://git@github.com/timolegros/chain-events.git#tim.OOP",
     "amqplib": "^0.8.0",
     "rascal": "^13.1.0"
   },
