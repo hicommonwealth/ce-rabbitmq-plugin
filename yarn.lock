@@ -19,7 +19,7 @@
 
 "@commonwealth/chain-events@git+https://git@github.com/timolegros/chain-events.git#tim.OOP":
   version "0.7.5"
-  resolved "git+https://git@github.com/timolegros/chain-events.git#393a87cc00e483fb953f348be0cde2552042477b"
+  resolved "git+https://git@github.com/timolegros/chain-events.git#43ec72c5941fe572749fc9a40d11a213f5da7938"
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@ethersproject/abi" "^5.0.0"
