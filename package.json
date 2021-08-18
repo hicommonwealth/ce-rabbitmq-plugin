@@ -15,11 +15,16 @@
     "build": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "@commonwealth/chain-events": "git+https://git@github.com/timolegros/chain-events.git#tim.OOP",
+    "@commonwealth/chain-events": "git+https://git@github.com/hicommonwealth/chain-events.git#tim.OOP",
     "amqplib": "^0.8.0",
     "rascal": "^13.1.0"
   },
   "devDependencies": {
-    "@types/rascal": "^10.0.4"
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/rascal": "^10.0.4",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^8.0.0"
   }
 }
