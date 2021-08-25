@@ -7,15 +7,16 @@
   "files": [
     "dist/"
   ],
-  "repository": "https://github.com/timolegros/ce-rabbitmq-plugin.git",
+  "repository": "https://github.com/hicommonwealth/ce-rabbitmq-plugin.git",
   "author": "timolegros <timothee@ualberta.ca>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "tsc --project tsconfig.json",
+    "prepublish": "yarn build"
   },
   "dependencies": {
-    "@commonwealth/chain-events": "git+https://git@github.com/timolegros/chain-events.git#tim.build",
+    "@commonwealth/chain-events": "^0.8.0",
     "amqplib": "^0.8.0",
     "rascal": "^13.1.0"
   },
