@@ -1,6 +1,6 @@
 {
-  "name": "ce-rabbitmq-plugin",
-  "version": "1.0.0",
+  "name": "@commonwealth/ce-rabbitmq-plugin",
+  "version": "0.0.1",
   "description": "A chain-events plugin that adds RabbitMq functionality",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,7 +10,6 @@
   "repository": "https://github.com/hicommonwealth/ce-rabbitmq-plugin.git",
   "author": "timolegros <timothee@ualberta.ca>",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "prepublish": "yarn build"
