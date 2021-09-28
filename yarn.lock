@@ -17,10 +17,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@commonwealth/chain-events@0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@commonwealth/chain-events/-/chain-events-0.8.4.tgz#2fca513af30c347f86e747d98b30e95f7194d5e5"
-  integrity sha512-E9RkTJ9HQrYK7MrC13sMnqeOzx3gvesFlBJrXZ/897vFmcdN2X/bem7nIesADOpPV+b1xlE3bFrNStoUr58UWw==
+"@commonwealth/chain-events@0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@commonwealth/chain-events/-/chain-events-0.8.5.tgz#6d1acd40722cc147feca505543048cc3eee12ec8"
+  integrity sha512-Cc/g1TaTDCsOBQLlD0sZBNM8s0MukFAlrA00je+1cZeZ/w9PjyCdhVkgQjE4o3YzioBLqzYdvApiaLxzM6bDQA==
   dependencies:
     "@edgeware/node-types" "^3.3.3"
     "@ethersproject/abi" "^5.0.0"

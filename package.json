@@ -1,6 +1,6 @@
 {
   "name": "@commonwealth/ce-rabbitmq-plugin",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A chain-events plugin that adds RabbitMq functionality",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@commonwealth/chain-events": "0.8.4",
+    "@commonwealth/chain-events": "0.8.5",
     "amqplib": "^0.8.0",
     "rascal": "^13.1.0"
   },
